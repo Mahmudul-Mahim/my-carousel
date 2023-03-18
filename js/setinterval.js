@@ -6,6 +6,6 @@ setInterval(() => {
     imgCount = 1;
   }
   img.src = `images/pic-${imgCount}.jpg`;
-  console.log(imgCount);
+  // console.log(imgCount);
   imgCount++;
 }, 1000);
